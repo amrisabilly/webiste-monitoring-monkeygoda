@@ -16,13 +16,16 @@ use Inertia\Inertia;
 |
 */
 
+// Route::get('/', function () {
+//     return Inertia::render('Dashboard/Index');
+// })->name('dashboard');
+
 Route::get('/', function () {
-    return Inertia::render('Dashboard/Index');
-})->name('dashboard');
+    return Inertia::render('ArPreview');
+})->name('ar.preview');
 
-
-require __DIR__.'/auth.php';
-require __DIR__.'/dashboard.php';
+require __DIR__ . '/auth.php';
+require __DIR__ . '/dashboard.php';
 
 
 // Route::get('/dashboard', function () {

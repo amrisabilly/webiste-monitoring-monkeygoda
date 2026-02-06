@@ -23,6 +23,7 @@
     @viteReactRefresh
     @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"])
     @inertiaHead
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 </head>
 
 <body class="font-sans antialiased">
